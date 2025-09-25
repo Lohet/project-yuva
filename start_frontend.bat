@@ -1,0 +1,9 @@
+@echo off
+echo Starting YUVA Frontend Server...
+cd /d "%~dp0"
+echo Installing Node.js dependencies...
+npm install
+echo Starting Vite development server on port 3000...
+npm run dev
+pause
+

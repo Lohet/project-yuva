@@ -1,0 +1,9 @@
+@echo off
+echo Starting YUVA Backend Server...
+cd /d "%~dp0"
+echo Installing Python dependencies...
+pip install -r requirements.txt
+echo Starting FastAPI server on port 5000...
+python api.py
+pause
+
